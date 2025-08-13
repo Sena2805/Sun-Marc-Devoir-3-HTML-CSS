@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Raleway, sans-serif;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+} 
+
 title {
     font-family: lato, sans-serif;
 }
+
+
+
