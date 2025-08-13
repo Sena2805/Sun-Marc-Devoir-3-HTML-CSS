@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Raleway, sans-serif;
+    src: url(../fonts/static/Raleway-Regular.ttf);
+    font-weight: normal;
+} 
+
+#header {
+    width: 1160px;
+    margin: auto;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#title {
+    font-family: lato, sans-serif;
+    color: blueviolet;
+}
+
+#photo {
+    background-color: aqua;
+    border-radius: 50%;
+    border: solid 2px #f3f3f3; /* rgb(rgb(243, 243, 243); */
+}
+
+
+
+
+
+
+
