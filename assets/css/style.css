@@ -1,11 +1,14 @@
 @font-face {
     font-family: Raleway, sans-serif;
-    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+    src: url(../fonts/static/Raleway-Regular.ttf);
+    font-weight: normal;
 } 
 
-title {
+#title {
     font-family: lato, sans-serif;
+    color: blueviolet;
 }
+
 
 
 
