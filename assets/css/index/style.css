@@ -4,15 +4,26 @@
     font-weight: normal;
 } 
 
-#header {
+html {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-left: 50px solid #f3f3f3;
+    border-right: 50px solid #f3f3f3;
+    background: #ffff; /*rgb(255, 255, 255); */
     width: 1160px;
-    margin: auto;
+}
+
+#header {
+    background-color: #17abb3; /*rgb (23, 171, 179); */
+
 }
 
 #contact {
+    width: 1160px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #title {
@@ -21,9 +32,28 @@
 }
 
 #photo {
-    background-color: aqua;
+    background-color: rgb(255, 0, 255);
     border-radius: 50%;
     border: solid 2px #f3f3f3; /* rgb(rgb(243, 243, 243); */
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#job {
+    text-align: center;
+}
+
+#mail {
+    
+}
+
+body {
+    margin: 0%;
 }
 
 
