@@ -2,6 +2,7 @@
     font-family: Raleway;
     src: url(../../fonts/Raleway-Regular.woff) format('woff');
     font-weight: normal;
+    font-style: normal;
 } 
 
 html {
@@ -26,7 +27,6 @@ html {
     flex-direction: row;
     justify-content: space-evenly;
 }
-
 
 #title {
     font-family: lato, sans-serif;
@@ -57,6 +57,7 @@ h2 {
 }
 
 #mail {
+    margin-left: 75px;
     text-decoration: none;
     color: #f3f3f3; /* rgb(243, 243, 243); */
 }
@@ -85,6 +86,7 @@ body {
 }
 
 #phone {
+    margin-left: 40px;
     text-decoration: none;
     color: #f3f3f3; /* rgb(243, 243, 243); */
 }   
@@ -315,6 +317,119 @@ h6 {
     flex-direction: column;
     background-color: #f3f3f3; /* rgb(243, 243, 243); */;
 }
+
+#profile-hr {
+    width: 700px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+}
+
+#profile-text {
+    text-indent: 10%;
+    text-align: justify;
+    text-justify: auto;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+#formation-hr {
+    width: 700px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+}
+
+#formation-list li {
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+#web-developer-date {
+    margin-left: 365px;
+    color: #17abb3; /* rgb(23, 171, 179); */
+}
+
+#formation-center {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#highschool {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+#diploma-date {
+    margin-left: 567px;
+    color: #17abb3; /* rgb(23, 171, 179); */
+}
+
+#internship-hr {
+    width: 700px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+}
+
+#internship-list li {
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+#internship-date-1 {
+    margin-left: 500px;
+    color: #17abb3; /* rgb(23, 171, 179); */
+}
+
+#internship-date-2 {
+    margin-left: 370px;
+    color: #17abb3; /* rgb(23, 171, 179); */
+}
+
+#internship-society {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#city-hall {
+    font-style: italic;
+    font-weight: lighter;
+}   
+
+#profesional-experience-hr {
+    width: 700px;
+    margin-left: 50px;
+    margin-bottom: 1px;
+}
+
+#profesional-experience-list li {
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+#profesional-experience-date-1 {
+    margin-left: 432px;
+    color: #17abb3; /* rgb(23, 171, 179); */
+}
+
+#profesional-experience-date-2 {
+    margin-left: 480px;
+    color: #17abb3; /* rgb(23, 171, 179); */
+}
+
+#profesional-experience-date-3 {
+    margin-left: 475px;
+    color: #17abb3; /* rgb(23, 171, 179); */
+}
+
 
 
 
