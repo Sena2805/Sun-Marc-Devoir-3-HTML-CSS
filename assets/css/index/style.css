@@ -430,6 +430,39 @@ h6 {
     color: #17abb3; /* rgb(23, 171, 179); */
 }
 
+#footer {
+    background-color: #17abb3; /* rgb(23, 171, 179); */
+    color: #f3f3f3; /* rgb(243, 243, 243); */
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#linkedin {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+#github {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+#instagram {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
 
 
 
