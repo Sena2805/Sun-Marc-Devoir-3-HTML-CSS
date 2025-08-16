@@ -451,10 +451,18 @@ h6 {
     margin-top: 6px;
 }
 
+#linkedin:hover {
+    opacity: calc(1 - 0.2);
+}
+
 #github {
     width: 45px;
     height: 45px;
     margin-left: 10px;
+}
+
+#github:hover {
+    opacity: calc(1 - 0.2);
 }
 
 #instagram {
@@ -464,6 +472,9 @@ h6 {
     margin-top: 2px;
 }
 
+#instagram:hover {
+    opacity: calc(1 - 0.2);
+}
 
 
 
