@@ -6,23 +6,37 @@
 } 
 
 html {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     border-left: 50px solid white;
-    border-right: 50px solid white;
-    width: 1160px;   
+    border-right: 50px solid white;   
     font-family: Raleway, sans-serif;
     font-weight: normal;
 }
 
+#body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 100%;
+}
+
+#container {
+    width: 1160px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #ffffff; /* rgb(243, 243, 243); */
+    display: flex;
+    flex-direction: column;
+}   
+
 #header {
     background-color: #17abb3; /*rgb (23, 171, 179); */
-
 }
 
 #contact {
-    width: 1160px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -83,10 +97,6 @@ h2 {
     margin-left: 15px;
 }
 
-body {
-    margin: 0%;
-}
-
 #phone {
     margin-left: 40px;
     text-decoration: none;
@@ -114,7 +124,8 @@ body {
 
 main {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 1160px;
 }
 
@@ -314,10 +325,12 @@ h6 {
     font-size: 30px; 
 }
 
-#experience {
+#experiance {
+    width: 900px;
+    margin: 0 auto; 
+    background-color: #ffffff; /* rgb(243, 243, 243); */    
     display: flex;
     flex-direction: column;
-    background-color: #f3f3f3; /* rgb(243, 243, 243); */;
 }
 
 #profile-hr {
@@ -358,11 +371,23 @@ h6 {
     font-weight: lighter;
 }
 
+
+#formation-web:hover {
+   background-color: #5e5d5d34; /* rgb(243, 243, 243); */  
+   border-left: #17abb3 solid 5px; /* rgb(23, 171, 179); */
+   margin-left: 10px;
+}   
+
 #highschool {
     font-style: italic;
     font-weight: lighter;
 }
 
+#diploma:hover {
+   background-color: #5e5d5d34; /* rgb(243, 243, 243); */  
+   border-left: #17abb3 solid 5px; /* rgb(23, 171, 179); */
+   margin-left: 10px;
+}
 
 #diploma-date {
     margin-left: 567px;
@@ -430,6 +455,24 @@ h6 {
     margin-bottom: 1px;
 }
 
+#current-job:hover {
+   background-color: #5e5d5d34; /* rgb(243, 243, 243); */  
+   border-left: #17abb3 solid 5px; /* rgb(23, 171, 179); */
+   margin-left: 10px;
+}   
+
+#last-job:hover {
+   background-color: #5e5d5d34; /* rgb(243, 243, 243); */  
+   border-left: #17abb3 solid 5px; /* rgb(23, 171, 179); */
+   margin-left: 10px;
+}   
+
+#first-job:hover {
+   background-color: #5e5d5d34; /* rgb(243, 243, 243); */  
+   border-left: #17abb3 solid 5px; /* rgb(23, 171, 179); */
+   margin-left: 10px;
+}   
+
 #profesional-experience-list li {
     list-style: none;
     margin-left: 10px;
@@ -456,8 +499,7 @@ h6 {
 #footer {
     background-color: #17abb3; /* rgb(23, 171, 179); */
     color: #f3f3f3; /* rgb(243, 243, 243); */
-    text-align: center;
-    padding: 10px;
+    text-align: center; 
     font-size: small;
 }
 
