@@ -4,12 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devoir-3-CV-HTML-CSS</title>
+    <link rel="stylesheet" href="assets/css/index/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/">
+    <link rel="icon" type="image/png" href="./assets/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="./assets/favicons/favicon.svg">
+    <link rel="shortcut icon" href="./assets/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="./assets/favicons/site.webmanifest">
+   
 </head>
 <body>
-    
+    <div id="container">
+        <header id="header">
+                <section id="contact">
+                    <img src="./assets/photo/2025-08-16_113636.jpg" alt="Photo de profil" id="photo" style="cursor:zoom-in;" onclick="window.open('./assets/photo/2025-08-16_113636.jpg', '_blank')"    >
+                        <div id="contact-data"><h1>Marc Sun</h1>
+                            <h2>Développeur Web et Web mobile</h2>
+
+                                <p id="contact-links">
+                                    <a href="mailto:test@mail.com" id="mail"> <img src="./assets/icons/email.png" alt="icone représentant une enveloppe pour email" id="mail-icon">Mail</a>
+                                    <a href="https://www.google.com/maps/" target="_blank" id="adress"><img src="./assets/icons/abri.png" alt="icone représentant une maison pour adresse" id="adress-icon">Adresse</a>
+                                </p>
+
+                                <p id="contact-phone">
+                                    <a href="tel:06060606" id="phone"><img src="./assets/icons/mobile.png" alt="icone représentant un téléphone" id="phone-icon">Téléphone</a> 
+                                    <img src="./assets/icons/voiture.png" alt="icone représentant une voiture" id="car-icon"> <span id="licence">Permis B</span>
+                                </p>
+                        </div>
+                </section>
+        </header>
+
+        <main>
+            <div id="skill">
+                <h3>Compétences</h3>
+                <hr id="skill-hr">
+                <ul id="skill-list">
+                    <li>HTML
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="html-skill-bold-star-1">
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="html-skill-bold-star-2">
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="html-skill-bold-star-3">
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="html-skill-bold-star-4">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile blanche" id="html-skill-white-star">
+                    </li>
+
+                    <li>CSS
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="css-skill-bold-star-1">
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="css-skill-bold-star-2">
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="css-skill-bold-star-3">
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="css-skill-bold-star-4">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile blanche" id="css-skill-white-star">
+                    </li>
+
+                    <li>JavaScript
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="javascript-skill-bold-star-1">
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="javascript-skill-bold-star-2">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile noir" id="javascript-skill-white-star-1">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile blanche" id="javascript-skill-white-star-2">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile blanche" id="javascript-skill-white-star-3">
+                    </li>
+
+                    <li>PHP
+                        <img src="./assets/icons/bold-star.png" alt="icone représentant une étoile noir" id="php-skill-bold-star-1">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile noir" id="php-skill-white-star-1">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile blanche" id="php-skill-white-star-2">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile blanche" id="php-skill-white-star-3">
+                        <img src="./assets/icons/white-star.png" alt="icone représentant une étoile blanche" id="php-skill-white-star-4">
+                    </li>  
+                </ul> 
+
+                <h4>Langues</h4>
+                <hr id="languages-hr">
+                    <ul id="languages-list">
+                        <li>Français<span id="first-language">Langue maternelle</span></li>
+                        <li>Anglais<span id="second-language">Courant</span></li>
+                    </ul>
+
+                <h5>Qualités</h5>
+                <hr id="personal-skill">    
+                    <ul id="personal-skill-list">
+                        <li>Autonome</li>
+                        <li>Organisé</li>
+                        <li>Curieux</li>
+                        <li>Créatif</li>
+                    </ul>
+
+                <h6>Centre d'intérêt</h6>
+                <hr id="interest-hr">
+                    <ul id="interest-list">
+                        <li>Voyages</li>
+                        <li>Informatique</li>
+                        <li>Sport</li>
+                        <li>Musique</li>
+                        <li>Jeux vidéos</li>
+                        <li>Mangas</li>
+                    </ul>            
+            </div>
+
+            <div id="experiance">
+
+                <h3>Profil</h3>
+                <hr id="profile-hr">
+                    <p id="profile-text">
+                        En formation de "Développeur web et web mobile", je suis interessé par la création de sites internet et d'applications. 
+                        J'aime relever des défis techniques et trouver des solutions innovantes pour améliorer l'expérience utilisateur. Mon objectif est de continuer à apprendre et à me perfectionner dans ce domaine en constante évolution.
+                    </p>
+            
+                <h3>Formation</h3>
+                <hr id="formation-hr">
+                    <ul id="formation-list">
+                        <li id="formation-web">Formation Développeur Web et Web Mobile <span id="web-developer-date">2025/2026</span>
+                        <br><small id="formation-center">Centre Européen de formation</small></li>                    
+                        <li id="diploma">Baccalauréat <span id="diploma-date">2005</span>
+                        <br><small id="highschool">Lycée Jules Vernes Nantes</small></li>                    
+                    </ul>
+                
+                <h3>Stages</h3>
+                <hr id="internship-hr">
+                    <ul id="internship-list"> <!--J'ai utilisé les stages du modèle, n'ayant pas fait de stage depuis un moment-->  
+                        <li id="first-internship">Gestionnaire de paye<span id="internship-date-1">2024</span>
+                        <br><small id="internship-society">Truc machin chose</small></li>
+                    
+                        <li id="second-internship">Stage Développeur Web - Entreprise XYZ <span id="internship-date-2">2023</span>
+                        <br><small id="city-hall">Mairie de Poitiers</small></li>
+                    </ul>
+
+                <h3>Expérience professionnel</h3>
+                <hr id="profesional-experience-hr">
+                    <ul id="profesional-experience-list">
+                        <li id="current-job">Préparateur de commande <span id="profesional-experience-date-1">2022/----</span>
+                        <br><small id="profesional-experience-society">Leclerc</small></li>
+                        <li id="last-job">Chargé de clientèle<span id="profesional-experience-date-2">2021/2022</span>
+                        <br><small id="profesional-experience-society-2">Armatis</small></li>
+                        <li id="first-job">Employé polyvalent<span id="profesional-experience-date-3">2011/2021</span>
+                        <br><small id="profesional-experience-society-3">Mr Zhu</small></li>    
+                    </ul>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div id="social-media">            
+                <img src="./assets/icons/linkedin.png" alt="icone représentant linkedin" id="linkedin">
+                <img src="./assets/icons/github.png" alt="icone représentant github" id="github">
+                <img src="./assets/icons/instagram.png" alt="icone représentant instagram" id="instagram">
+            </div>
+            <p><i>Mis à jours le 16/08/2025</i></p>
+        </footer>    
+    </div>   
 </body>
 </html>
+
+
+
+
